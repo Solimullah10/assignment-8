@@ -1,3 +1,8 @@
+# Small Shopping Cart
+
+Live server link: [Click here](www.google.com)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
