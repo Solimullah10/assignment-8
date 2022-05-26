@@ -1,4 +1,4 @@
-# Small Shopping Cart
+# Project Name: Small Shopping Cart
 
 Live server link: [Click here](www.google.com)
 
