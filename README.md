@@ -1,6 +1,6 @@
 # Project Name: Small Shopping Cart
 
-## Live server link: [Click here](www.google.com)
+## Live server link: [Click here](https://ubiquitous-frangipane-dcfb6f.netlify.app/)
 
 
 # Getting Started with Create React App
