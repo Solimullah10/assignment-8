@@ -5,7 +5,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons'
 const Basket = (props) => {
     const { cartItems, onRemove, selected } = props;
     return (
-        <aside className='block col-1 delete sticky'>
+        <aside className='block col-1'>
             <h2>Cart Items</h2>
             <div>{cartItems.length === 0 && <p>Cart is Empty</p>}</div>
             {cartItems.map((item) => (
@@ -19,7 +19,6 @@ const Basket = (props) => {
             ))}
             <div>
                 <button className='choose-btn' onClick={() => selected(cartItems)}>Choose 1 For Me</button>
-
             </div>
         </aside>
     );

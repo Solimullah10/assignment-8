@@ -5,7 +5,7 @@ import React from 'react';
 const Product = (props) => {
     const { product, onAdd } = props;
     return (
-        <div className='prodcut-container'>
+        <div className='prodcut-container order-1'>
             <div>
                 <img src={product.img} alt={product.name} className="small" />
                 <h3>{product.name}</h3>

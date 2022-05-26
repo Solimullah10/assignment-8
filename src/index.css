@@ -54,6 +54,7 @@ a {
   grid-gap: 1rem;
 }
 
+
 img.small {
   max-width: 17rem;
 }
@@ -98,4 +99,36 @@ button.remove {
   margin-left: 20px;
   background-color: green;
   color: white;
+}
+
+.cart-for-mobile {
+  display: none;
+}
+
+.cart-for-desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  img.small {
+    width: 90%;
+  }
+
+  button {
+    width: 86%;
+    margin-bottom: 20px;
+  }
+
+  .cart-for-desktop {
+    display: none;
+  }
+
+  .cart-for-mobile {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

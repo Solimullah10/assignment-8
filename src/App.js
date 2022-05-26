@@ -35,10 +35,13 @@ function App() {
   };
   return (
     <div className="App">
-      <Header></Header>
+      <Header ></Header>
+      <div className='cart-for-mobile'><Basket onRemove={onRemove} cartItems={cartItems} selected={selected}></Basket></div>
       <div className='row'>
         <Main onAdd={onAdd} products={products}></Main>
-        <Basket onRemove={onRemove} cartItems={cartItems} selected={selected}></Basket>
+        <div className='cart-for-desktop'>
+          <Basket onRemove={onRemove} cartItems={cartItems} selected={selected}></Basket>
+        </div>
       </div>
       <Answer></Answer>
     </div>
